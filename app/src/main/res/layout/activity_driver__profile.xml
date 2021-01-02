@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Driver_Profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Profile"
+        android:textSize="20dp"
+        android:textColor="#F44336"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:hint="phone"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textColor="#fefefe"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="#F44336"
+        android:id="@+id/save"
+
+        />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Salary/Finantial Info"
+       android:textSize="20dp"
+       android:textColor="#F50808"
+       android:layout_marginTop="50dp"
+       android:textAlignment="center"
+       />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salary"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="salary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pick"
+        android:text="pick"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cod"
+        android:text="cod"
+        android:textColor="#000000"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
